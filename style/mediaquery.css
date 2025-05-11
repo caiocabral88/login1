@@ -16,18 +16,23 @@ big screem 1200 ++
     }
 
     section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 280px;
     }
     
     section#login > div#image {
         float: left;
-        width: 30%;
+        width: 35%;
         height: 100%;
     }
 
     section#login > div#form {
         float: right;
-        width: 70%;
+        width: 48%;
+    }
+
+    form > input#final, a#final {
+        width: 87%;
     }
 }
 
@@ -38,6 +43,7 @@ big screem 1200 ++
 
     section#login {
         width: 950px;
+        height: 300px;
     }
 
     section#login > div#image {
@@ -57,5 +63,9 @@ big screem 1200 ++
 
     div#form > p {
         font-size: 1.2em;
+    }
+
+    form > input#final, a#final {
+        width: 87%;
     }
 }
